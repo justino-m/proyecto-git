@@ -6,20 +6,34 @@
     box-sizing: border-box;
 }
 
-
+.card-inicio ,.card{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
 .img-com{
-    width: 300%;
-    height: 500px;
+    height: 550px;
     opacity: 0.7;
-
+    width: 98vw;
+    border-radius: 5px;
+    background-attachment: fixed;
+    background-size: contain;
 }
 .card-text{
     color: rgb(255, 255, 255);
 }
 .img-com2{
-    width: 300%;
-    height: 600px;
+    height: 550px;
     opacity: 0.7;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 98vw;
+    border-radius: 5px;
+}
+.card-img-overlay{
+    font-size: .8rem;
+    text-align: left;
+
 }
 
 
